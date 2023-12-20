@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css"/>
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Guess the Number Game</h1>
+    </header>
+
+    <main>
+        <div id="game-container">
+            <p>Guess a number between 1 and 10!<br>Miss Anjali!:</p>
+            <input type="number" id="user-input">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <p id="result"></p>
+        </div>
+    </main>
+
     <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
